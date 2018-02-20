@@ -1,5 +1,5 @@
-print ('hello world')
-name = input('name? ')
-print ('hello '+name)
-
-a = input('end?')
+numbers = input('число.. ')
+one = numbers.count('1')
+zero = numbers.count('0')
+print ('Едениц: ' + str(one))
+print ('Нулей: ' + str(zero))
