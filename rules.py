@@ -26,11 +26,28 @@ else:
 # x or y
 # not x
 
+#######
 a = 13
 if a and 13 == 13:
     print('work')
+#######
+if a or 12 != 11:
+    print('13 not 11')
+#######
+if 13==True:
+    print('wtf')
+else:
+    print('13==13')
 
-    # else выполняется если конструкция не была прервана breake
+    # (A = Y if X else Z) ==(if X:
+    #                            A=Y
+    #                        else:
+    #                            A=Z)
+
+number = 12 if 1 else None
+print (number)
+
+# else выполняется если конструкция не была прервана breake
 
 for i in 'hello':
     if i == 'l':
@@ -38,3 +55,5 @@ for i in 'hello':
     print(i, end='')
 else:
         print("l, none")
+
+#так же бывают циклы while
